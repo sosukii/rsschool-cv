@@ -39,13 +39,13 @@ html, css, js, react, mongodb, mongoose, git/githab
 
 ```javascript
 async function getDataFromCards (cardsAtOnePage){
-            for (let oneCard of cardsAtOnePage){
+            for (const oneCard of cardsAtOnePage){
                 let name = await oneCard.$eval('div.title-image > div.title-wrap > a', e => e.textContent)
                 let textPrice = (await oneCard.$eval('div.catalog-item-price > ul ', e => e.textContent)).split('Розничная цена: ')[1]
                 let price = (textPrice.split('.00 Р')[0]).replace(' ','')
 
                 let amount = '1'
-                let isNotAvailable = await oneCard.$eval('div.catalog-item-quantity-wrap.authorized > div.catalog-item-quantity > div.region-quantity', e=> e.textContent.includes('Нет'))
+                let isNotAvailable = await oneCard.$eval('div.catalog-item-quantity-wrap.authorized > div.catalog-item-quantity > div.region-quantity', e => e.textContent.includes('Нет'))
 
                 if(isNotAvailable){
                     amount='0'
