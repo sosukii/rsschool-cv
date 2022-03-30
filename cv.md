@@ -1,5 +1,7 @@
 # Svetlana Trukhina
 
+<img src="./myphoto.jpg" width="110" alt="my photo here">
+
 ## Contact me  
 
 Telegram: @Tasvetla \
@@ -62,14 +64,11 @@ async function getDataFromCards (cardsAtOnePage){
 
 ## Work expiriance
 
-
 1. [Parsers](https://github.com/sosukii/3parsers_exe). Creating with puppeteer\cheerio, nodejs, fs;
 
     ![NodeJS](https://img.shields.io/badge/-NodeJS-9c5?style=flat&logo=node.js)
     ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=flat&logo=javascript)
     ![Puppeteer](https://img.shields.io/badge/-Puppeteer-fff?style=flat&logo=puppeteer)
-
-
 
 2. [CRM](https://github.com/sosukii/crm). Creating with react, nodejs, express, mongoDB, mongoose;
 
@@ -77,14 +76,14 @@ async function getDataFromCards (cardsAtOnePage){
     ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=flat&logo=javascript)
     ![React](https://img.shields.io/badge/-React-000?style=flat&logo=react)
     ![MongoDB](https://img.shields.io/badge/-MongoDB-000?style=flat&logo=mongodb)
- 
+
 3. [Test projects](https://github.com/sosukii/booksAuthors). Creating with react, nodejs, express, couchDB, graphQL.
 
     ![NodeJS](https://img.shields.io/badge/-NodeJS-9c5?style=flat&logo=node.js)
     ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=flat&logo=JavaScript)
     ![React](https://img.shields.io/badge/-React-000?style=flat&logo=react)
-    ![GraphQL](https://img.shields.io/badge/-Graphql-da0093?style=flat&logo=graphql)
     ![CouchDB](https://img.shields.io/badge/-CouchDB-dd2427)
+    ![GraphQL](https://img.shields.io/badge/-Graphql-da0093?style=flat&logo=graphql)
 
 ---
 
@@ -95,5 +94,6 @@ async function getDataFromCards (cardsAtOnePage){
 ---
 
 ## Languages
+
 Russian: native \
 English: A2
