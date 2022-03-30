@@ -4,10 +4,11 @@
 
 ## Contact me  
 
-Telegram: @Tasvetla \
-Email: sweta4ca@mail.ru \
-Phone: +7 999 499 7861 \
-RS school nickname (diskord): sosukii (@sosukii) sosukii#4767
+* Location: Russia, Novosibirsk
+* Telegram: @Tasvetla
+* Email: sweta4ca@mail.ru
+* Phone: +7 999 499 7861
+* RS school nickname (diskord): sosukii (@sosukii) sosukii#4767
 
 ---
 
@@ -20,9 +21,9 @@ My meaning - it is give you a free time: for generete a new buisness strategy, t
 
 ### I want to help you, and how can i do this
 
-- i will see which process you want to see in you're buisness;
-- i am thinking about it and will offer you automatization solutions;
-- we going to diskass it, choose most affordable/suitable solve.
+* i will see which process you want to see in you're buisness;
+* i am thinking about it and will offer you automatization solutions;
+* we going to diskass it, choose most affordable/suitable solve.
 
 And when all disputes moments has been solved, we can start to code it up.
 
