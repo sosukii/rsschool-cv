@@ -1,3 +1,181 @@
-p {
-  color: green;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #3f51b5;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body {
+  margin-top: 35px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.navigation {
+  font-size: 24px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+.section-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.section-left {
+  width: 40%;
+}
+
+.section-right {
+  width: 60%;
+}
+
+.photo-wrapper {
+  max-width: 40%;
+}
+
+.photo-wrapper img {
+  width: 50%;
+  border-radius: 50%;
+  position: relative;
+  left: 5%;
+}
+
+.title-wrapper {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+}
+
+.title-wrapper p {
+  font-size: 1.75rem;
+}
+
+.projects-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+  margin-bottom: 10px;
+  font-size: 28px;
+  border-bottom: solid 1px #9EC1D4;
+}
+
+section {
+  padding-bottom: 0.6rem;
+}
+
+section h3 {
+  padding-bottom: 0.3rem;
+  font-size: 20px;
+}
+
+.job-position {
+  margin-left: 25px;
+}
+
+.article-about {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logotype-rss {
+  max-width: 2rem;
+}
+
+.about-block {
+  margin-top: 15px;
+  text-align: right;
+  margin-bottom: 35px;
+}
+
+a:hover {
+  color: #9EC1D4;
+}
+
+.article {
+  height: 400px;
+  height: calc(660px + -260 * (100vw - 390px) / 1410);
+}
+
+.arcticle-middle {
+  height: 28%;
+}
+
+.article-bottom {
+  height: 10%;
+}
+
+.code-example {
+  overflow: hidden;
 }
