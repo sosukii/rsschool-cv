@@ -1,12 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Trukhina CV</title>
+</head>
 <body>
-    <p>test</p>
+    <header>
+        <div class="wrapper">
+            <div class="flex-content">
+                <div class="section-top">
+                    <div class="photo-wrapper">
+                        <img src="./img/photoEqual.jpg" alt="photo with me">
+                    </div>
+                    <div class="title-wrapper">
+                        <div class="user-info">
+                            <h1>Svetlana Trukhina</h1>
+                            <p>frontend developer</p>
+                        </div>
+                        <nav class="navigation">
+                            <ul>
+                                <li><a href="#Contact">contact</a></li>
+                                <li><a href="#About">about</a></li>
+                                <li><a href="#Skills">skills</a></li>
+                                <li><a href="#Projects">projects</a></li>
+                                <li><a href="#CodeExample">code example</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content wrapper">
+            <div class="section-left">
+                <article class="article">
+                    <h2 id="Contact">contact me</h2>
+                    <section>
+                        <h3>Location:</h3>
+                        <p>Russia, Novosibirsk</p>
+                        <p>(ready to relocate)</p>
+                    </section>
+                    <section>
+                        <h3>Phone:</h3>
+                        <a href="tel:+79994997861" target="_blank">+7 999 499 7861</a>
+                    </section>
+                    <section>
+                        <h3>Telegram:</h3>
+                        <a href="https://t.me/Tasvetla" target="_blank">@Tasvetla</a>
+                    </section>
+                    <section>
+                        <h3>Email:</h3>
+                        <a href="mailto:sweta4ca@mail.ru" target="_blank">sweta4ca@mail.ru</a>
+                    </section>
+                    <section>
+                        <h3>Github:</h3>
+                        <a href="https://github.com/sosukii" target="_blank">sosukii</a>
+                    </section>
+                    <section>
+                        <h3>RS school nickname (discord):</h3>
+                        <p>sosukii (@sosukii) sosukii#4767</p>
+                    </section>
+                </article>
+
+                <article class="article-skills arcticle-middle">
+                    <h2 id="Skills">skills</h2>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>Bootstrap, Tailwind</li>
+                        <li>Figma</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>MongoDB, Mongoose</li>
+                        <li>Git, GutHub</li>
+                    </ul>
+                </article>
+
+                <article class="article-bottom">
+                    <h2>languages</h2>
+                    <p>Russian: native</p>
+                    <p>English: A2</p>
+                </article>
+            </div>
+            <div class="section-right">
+                    <article class="article-projects article">
+                        <h2 id="Projects">projects</h2>
+                            <section >
+                                <div class="projects-flex">
+                                    <h3><a href="https://github.com/sosukii/3parsers_exe">Parsers</a></h3>
+                                    <div>
+                                        <img src="https://img.shields.io/badge/-NodeJS-9c5?style=flat&logo=node.js" alt="badge of node.js"/>
+                                        <img src="https://img.shields.io/badge/-JavaScript-000?style=flat&logo=javascript" alt="badge of javascript">
+                                        <img src="https://img.shields.io/badge/-Puppeteer-fff?style=flat&logo=puppeteer" alt="badge of puppeteer">
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Scrap data from site-donor, created .csv and load to target site</p>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="projects-flex">
+                                    <h3><a href="https://github.com/sosukii/freshCRM">CRM</a></h3>
+                                    <div>
+                                        <img src="https://img.shields.io/badge/-NodeJS-9c5?style=flat&logo=node.js" alt="badge of node.js"/>
+                                        <img src="https://img.shields.io/badge/-JavaScript-000?style=flat&logo=javascript" alt="badge of javascript">
+                                        <img src="https://img.shields.io/badge/-React-000?style=flat&logo=react" alt="badge of react">
+                                        <img src="https://img.shields.io/badge/-MongoDB-000?style=flat&logo=mongodb" alt="badge of mongo database">
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Save instance of worker, schedule to db. Get workers, schedule from db. Add\remove workers to schedule, add\remove work activity of worker. Drag and drop schedule on Fullcalendar(with save changing data for schedule). Set payment  per hour for every worker.</p>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="projects-flex">
+                                    <h3><a href="https://github.com/sosukii/booksAuthors">Test project</a></h3>
+                                    <div>
+                                        <img src="https://img.shields.io/badge/-NodeJS-9c5?style=flat&logo=node.js" alt="badge of node.js"/>
+                                        <img src="https://img.shields.io/badge/-JavaScript-000?style=flat&logo=javascript" alt="badge of javascript">
+                                        <img src="https://img.shields.io/badge/-React-000?style=flat&logo=react" alt="badge of react">
+                                        <img src="https://img.shields.io/badge/-CouchDB-dd2427" alt="badge of couch database">
+                                        <img src="https://img.shields.io/badge/-Graphql-da0093?style=flat&logo=graphql" alt="badge of graphQL">
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <p>Get all books, authors. Get a book\author by id. choose the number of cards you want to see on the page</p>
+                                </div>
+
+                            </section>
+                            <div class="code-example" id="CodeExample">
+                                <p>code example</p>
+                                <pre><code>const inputHandler = (e) => { <br>    if((e.target.value).length > 0) setMessageAttention('') <br>    setAuthorRequestedID(e.target.value) <br>}</code></pre>
+                            </div>
+                    </article>
+
+                    <article class="arcticle-middle">
+                        <h2>experience</h2>
+                        <div class="experience">
+                            <div>
+                                <h3><a href="https://aventcompany.ru/">Aventcompany</a></h3>
+                                <p>2020 - now</p>
+                            </div>
+                            <div class="job-position">
+                                <h3>Content manager</h3>
+                                <p>Filled site by content of suppliers sites; update price (amount);</p>
+                                <p>Creating parsers for target supplier; scrap data\update price (amount) with parsers creating by myself; development of crm-project.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article-bottom">
+                        <h2>education</h2>
+                        <div>
+                            TSPU / FACULTY OF PSYCHOLOGY AND SPECIAL EDUCATION
+                        </div>
+                        <div>
+                            2020
+                        </div>
+                    </article>
+            </div>
+
+        </div>
+        <div class="wrapper about-block">
+            <h2 id="About">about me</h2>
+            <p>I want to doing my best for comfort life of my family, myself and my friends. </p>
+            <p>soft and purposeful</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <a href="https://github.com/sosukii">GitHub</a>
+            <p>2022</p>
+            <img src="./img/rs_school_js.svg" alt="logotype of rs-school" class="logotype-rss">
+            <a href="https://rs.school/js/">Course «JavaScript/Front-end»</a>
+        </div>
+    </footer>
 </body>
 </html>
