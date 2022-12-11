@@ -27,6 +27,22 @@
         line-height: 24px
 
 
+.education
+    &__title
+        padding-bottom: 20px
+    &__description
+        display: flex
+        font-size: 18px
+        line-height: 24px
+    &__university
+        text-transform: uppercase
+        color: sandybrown
+        font-family: 'SansNarrow-700'
+        letter-spacing: 1px
+    &__year
+        font-family: 'SansNarrow-400'
+
+
 
 @media screen and (min-width: 220px)
     .about
@@ -53,6 +69,12 @@
         &__description
             padding-bottom: 40px
 
+
+    .education__description
+        flex-direction: column
+        gap: 8px
+
+
 @media screen and (min-width: 768px)
     .about-wrapper, .experience-wrapper
         max-width: 498px
@@ -66,6 +88,13 @@
 
     .experience-title
         padding-bottom: 26px
+
+    .education
+        display: flex
+        justify-content: center
+    .education-wrapper
+        min-width: 497px
+
 
 @media screen and (min-width: 1440px)
     .about-wrapper, .experience-wrapper
@@ -82,6 +111,13 @@
     .experience-title
         padding-bottom: 16px
 
+
+    .education-wrapper
+        min-width: 635px
+    .education__description
+        flex-direction: row
+        gap: 0px
+        justify-content: space-between
 
 // experience
 

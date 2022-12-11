@@ -237,6 +237,26 @@ ul, ol {
   line-height: 24px;
 }
 
+.education__title {
+  padding-bottom: 20px;
+}
+.education__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  line-height: 24px;
+}
+.education__university {
+  text-transform: uppercase;
+  color: sandybrown;
+  font-family: "SansNarrow-700";
+  letter-spacing: 1px;
+}
+.education__year {
+  font-family: "SansNarrow-400";
+}
+
 @media screen and (min-width: 220px) {
   .about {
     padding-top: 40px;
@@ -272,6 +292,13 @@ ul, ol {
   .experience-item__description {
     padding-bottom: 40px;
   }
+  .education__description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 8px;
+  }
 }
 @media screen and (min-width: 768px) {
   .about-wrapper, .experience-wrapper {
@@ -291,6 +318,17 @@ ul, ol {
   .experience-title {
     padding-bottom: 26px;
   }
+  .education {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .education-wrapper {
+    min-width: 497px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .about-wrapper, .experience-wrapper {
@@ -309,6 +347,19 @@ ul, ol {
   }
   .experience-title {
     padding-bottom: 16px;
+  }
+  .education-wrapper {
+    min-width: 635px;
+  }
+  .education__description {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 0px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 .side-paddings {
