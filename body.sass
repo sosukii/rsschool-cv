@@ -1,0 +1,93 @@
+
+
+
+.about
+    display: flex
+    flex-direction: column
+    gap: 10px
+.block-title
+    font-family: 'Playfair-900'
+
+.block-body, .experience-item__period
+    font-family: 'SansNarrow-400'
+
+
+
+
+.experience-item
+    &__subtitle
+        display: flex
+
+    &__position
+        text-transform: uppercase
+        color: sandybrown
+        font-family: 'SansNarrow-700'
+        letter-spacing: 1px
+        font-size: 18px
+        line-height: 24px
+
+
+
+@media screen and (min-width: 220px)
+    .about
+        padding-top: 40px
+        padding-bottom: 90px
+    .block-title
+        font-size: 32px
+        line-height: 42px
+    .block-body
+        font-size: 18px
+        line-height: 30px
+
+
+    .experience
+        display: flex
+        justify-content: center
+    .experience-title
+        padding-bottom: 24px
+    .experience-item
+        &__subtitle
+            flex-direction: column
+            gap: 8px
+            padding-bottom: 20px
+        &__description
+            padding-bottom: 40px
+
+@media screen and (min-width: 768px)
+    .about-wrapper, .experience-wrapper
+        max-width: 498px
+    .about
+        padding-top: 65px
+        padding-bottom: 118px
+        align-items: center
+    .block-body
+        font-size: 20px
+        line-height: 34px
+
+    .experience-title
+        padding-bottom: 26px
+
+@media screen and (min-width: 1440px)
+    .about-wrapper, .experience-wrapper
+        max-width: 635px
+    .about
+        padding-top: 85px
+        padding-bottom: 156px
+        &__title
+            display: none
+    .block-title
+        font-size: 36px
+        line-height: 46px
+
+    .experience-title
+        padding-bottom: 16px
+
+
+// experience
+
+
+.experience-title
+
+
+
+

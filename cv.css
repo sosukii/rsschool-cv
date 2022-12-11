@@ -114,9 +114,6 @@ ul, ol {
 }
 
 @media screen and (min-width: 220px) {
-  .side-paddings {
-    padding: 0px 20px;
-  }
   .header {
     font-size: 14px;
     padding-top: 80px;
@@ -206,4 +203,115 @@ ul, ol {
   .navigation__link {
     font-size: 16px;
   }
+}
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.block-title {
+  font-family: "Playfair-900";
+}
+
+.block-body, .experience-item__period {
+  font-family: "SansNarrow-400";
+}
+
+.experience-item__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.experience-item__position {
+  text-transform: uppercase;
+  color: sandybrown;
+  font-family: "SansNarrow-700";
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 220px) {
+  .about {
+    padding-top: 40px;
+    padding-bottom: 90px;
+  }
+  .block-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .block-body {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .experience {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .experience-title {
+    padding-bottom: 24px;
+  }
+  .experience-item__subtitle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 8px;
+    padding-bottom: 20px;
+  }
+  .experience-item__description {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-wrapper, .experience-wrapper {
+    max-width: 498px;
+  }
+  .about {
+    padding-top: 65px;
+    padding-bottom: 118px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .block-body {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .experience-title {
+    padding-bottom: 26px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-wrapper, .experience-wrapper {
+    max-width: 635px;
+  }
+  .about {
+    padding-top: 85px;
+    padding-bottom: 156px;
+  }
+  .about__title {
+    display: none;
+  }
+  .block-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .experience-title {
+    padding-bottom: 16px;
+  }
+}
+.side-paddings {
+  padding-left: 20px;
+  padding-right: 20px;
 }

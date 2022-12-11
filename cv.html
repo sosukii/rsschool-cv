@@ -8,44 +8,89 @@
     <link rel="stylesheet" href="./cv.css">
 </head>
 <body>
-    <header class="header side-paddings">
-        <div class="photo-wrapper">
-            <img src="./img/cv.jpg" alt="Sveta photo" class="photo">
+  <header class="header side-paddings">
+    <div class="photo-wrapper">
+      <img src="./img/cv.jpg" alt="Sveta photo" class="photo">
+    </div>
+
+    <div class="info-wrapper">
+      <p class="speciality">Frontend developer</p>
+      <h1 class="name">Svetlana Trukhina</h1>
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Contact</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Code example</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main class="main side-paddings">
+    <section class="about">
+      <div class="about-wrapper">
+        <h2 class="about__title block-title" id="About">About Me</h2>
+        <p class="about__body block-body">
+            I started writing parsers and then came to creating a CRM for business processes, and I am still working on it. I want to develop in programming and make a high-quality, working product. I like to see the whole picture and understand which part of the product is responsible for what.
+            I like to communicate in a soft and understandable way, learn quickly on my own, and I do not hesitate to ask, if something is not clear. I am regularly improving my skills.
+        </p>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="experience-wrapper">
+        <h2 class="experience-title block-title">Experience</h2>
+        <div class="experience-items">
+          <div class="experience-item">
+            <div class="experience-item__subtitle">
+              <p class="experience-item__position">JavaScript Developer - Aventcompany</p>
+              <p class="experience-item__period">Aug. 2019 - Present</p>
+            </div>
+            <p class="experience-item__description block-body">
+                Analysis of sites on the possibility of parsing.
+                Development of parsers - to grab content and update information from suppliers.
+                Writing readme to projects.
+                Support of my code, update it when supplier site was changes.
+                Discussion, coordination and agreement of process business automation.
+                Development of the project-prototype, based on the company requirements, for aggregation business processes in one place.
+                Development of the CRM system - backend, frontend, database
+            </p>
+          </div>
+          <div class="experience-item">
+            <div class="experience-item__subtitle">
+              <p class="experience-item__position">Content manager - Aventcompany</p>
+              <p class="experience-item__period">Dec. 2019 - Aug. 2019</p>
+            </div>
+            <p class="experience-item__description block-body">
+              Searching and editing information (images, characteristics, descriptions, etc.).
+              Creating and publishing product cards.
+              Including a block with similar products.
+              Product category management - creating, deleting, moving, sorting, icons.
+              Creating a content plan, task list ranking.
+              Correction and creation of blocks for the company's landing.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="info-wrapper">
-            <p class="speciality">Frontend developer</p>
-            <h1 class="name">Svetlana Trukhina</h1>
+  <footer class="footer">
 
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">Contact</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">About</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">Skills</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">Projects</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="" class="navigation__link">Code example</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-    </header>
-
-    <main class="main">
-
-    </main>
-
-    <footer class="footer">
-
-    </footer>
+  </footer>
 </body>
 </html>
