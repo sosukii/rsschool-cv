@@ -318,7 +318,7 @@ ul, ol {
   color: #0699A6;
 }
 .footer__icon {
-  max-width: 120px;
+  width: 120px;
 }
 
 @media screen and (min-width: 220px) {
