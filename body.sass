@@ -1,5 +1,8 @@
 
 
+.info-wrapper
+    display: flex
+    align-items: center
 
 .about
     display: flex
@@ -11,20 +14,20 @@
 .block-body, .experience-item__period
     font-family: 'SansNarrow-400'
 
-
+.sub-title
+    text-transform: uppercase
+    color: sandybrown
+    font-family: 'SansNarrow-700'
+    font-size: 18px
+    line-height: 24px
+    letter-spacing: 1px
+    padding-bottom: 10px
 
 
 .experience-item
     &__subtitle
         display: flex
 
-    &__position
-        text-transform: uppercase
-        color: sandybrown
-        font-family: 'SansNarrow-700'
-        letter-spacing: 1px
-        font-size: 18px
-        line-height: 24px
 
 
 .education
@@ -44,7 +47,16 @@
 
 
 
+.projects-list
+    display: flex
+    flex-direction: column
+    gap: 25px
+
+
 @media screen and (min-width: 220px)
+    .info-wrapper
+        flex-direction: column
+        gap: 90px
     .about
         padding-top: 40px
         padding-bottom: 90px
@@ -70,13 +82,22 @@
             padding-bottom: 40px
 
 
+    .education-wrapper
+        padding-bottom: 90px
     .education__description
         flex-direction: column
         gap: 8px
 
 
+
+    .info__additional-wrapper
+        display: flex
+        flex-direction: column
+        gap: 60px
+
+
 @media screen and (min-width: 768px)
-    .about-wrapper, .experience-wrapper
+    .info__main-wrapper, .info__additional-wrapper
         max-width: 498px
     .about
         padding-top: 65px
@@ -94,11 +115,14 @@
         justify-content: center
     .education-wrapper
         min-width: 497px
+        padding-bottom: 120px
 
 
 @media screen and (min-width: 1440px)
-    .about-wrapper, .experience-wrapper
+    .info__main-wrapper
         max-width: 635px
+    .info__additional-wrapper
+        max-width: 365px
     .about
         padding-top: 85px
         padding-bottom: 156px
@@ -119,10 +143,16 @@
         gap: 0px
         justify-content: space-between
 
+    .info-wrapper
+        justify-content: center
+        align-items: baseline
+        flex-direction: row-reverse
+        gap: 125px
+
 // experience
 
 
-.experience-title
+
 
 
 
