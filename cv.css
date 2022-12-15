@@ -320,6 +320,9 @@ ul, ol {
 .footer__icon {
   width: 120px;
 }
+.footer__year {
+  font-size: 25px;
+}
 
 @media screen and (min-width: 220px) {
   .info-wrapper {
