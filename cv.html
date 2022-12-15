@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Sveta!</title>
+    <link rel="stylesheet" href="./cv.css">
+</head>
+<body>
+  <header class="header side-paddings">
+    <div class="photo-wrapper">
+      <img src="./img/cv.jpg" alt="Sveta photo" class="photo">
+    </div>
+
+    <div class="header-nav-wrapper">
+      <p class="speciality">Frontend developer</p>
+      <h1 class="name">Svetlana Trukhina</h1>
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link">Contact</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#skills" class="navigation__link">Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#projects" class="navigation__link">Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#code" class="navigation__link">Code example</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main class="main side-paddings">
+
+    <div class="info">
+      <div class="info-wrapper">
+        <div class="info__main">
+          <div class="info__main-wrapper">
+            <section class="about" id="about">
+              <div class="about-wrapper">
+                <h2 class="about__title block-title " id="About">About Me</h2>
+                <p class="about__body block-body">
+                    I started writing parsers and then came to creating a CRM for business processes, and I am still working on it. I want to develop in programming and make a high-quality, working product. I like to see the whole picture and understand which part of the product is responsible for what.
+                    I like to communicate in a soft and understandable way, learn quickly on my own, and I do not hesitate to ask, if something is not clear. I am regularly improving my skills.
+                </p>
+              </div>
+            </section>
+
+            <section class="experience">
+              <div class="experience-wrapper">
+                <h2 class="experience-title block-title">Experience</h2>
+                <div class="experience-items">
+                  <div class="experience-item">
+                    <div class="experience-item__subtitle">
+                      <p class="experience-item__position sub-title">JavaScript Developer - Aventcompany</p>
+                      <p class="experience-item__period">Aug. 2020 - Present</p>
+                    </div>
+                    <p class="experience-item__description block-body">
+                        Analysis of sites on the possibility of parsing.
+                        Development of parsers - to grab content and update information from suppliers.
+                        Writing readme to projects.
+                        Support of my code, update it when supplier site was changes.
+                        Discussion, coordination and agreement of process business automation.
+                        Development of the project-prototype, based on the company requirements, for aggregation business processes in one place.
+                        Development of the CRM system - backend, frontend, database
+                    </p>
+                  </div>
+                  <div class="experience-item">
+                    <div class="experience-item__subtitle">
+                      <p class="experience-item__position sub-title">Content manager - Aventcompany</p>
+                      <p class="experience-item__period">Dec. 2019 - Aug. 2020</p>
+                    </div>
+                    <p class="experience-item__description block-body">
+                      Searching and editing information (images, characteristics, descriptions, etc.).
+                      Creating and publishing product cards.
+                      Including a block with similar products.
+                      Product category management - creating, deleting, moving, sorting, icons.
+                      Creating a content plan, task list ranking.
+                      Correction and creation of blocks for the company's landing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="education">
+              <div class="education-wrapper">
+                <h2 class="education__title block-title">Education</h2>
+                <div class="education__description">
+                  <p class="education__university sub-title">tspu / faculty of psychology and special education</p>
+                  <p class="education__year">Graduated 2020</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="code-example" id="code">
+              <p class="sub-title">code example</p>
+              <pre><code>const inputHandler = (e) =&gt; { <br>    if((e.target.value).length &gt; 0) setMessageAttention('') <br>    setAuthorRequestedID(e.target.value) <br>}</code></pre>
+            </section>
+          </div>
+
+        </div>
+        <div class="info__additional">
+          <div class="info__additional-wrapper">
+
+
+            <section class="contacts">
+              <div class="contacts-wrapper">
+                <h3 class="sub-title" id="contact">Contact me</h3>
+                <div class="contacts__body block-body">
+                  <p>Location: Russia, Novosibirsk, ready to relocate</p>
+                  <p>Phone: <a href="tel:+79994997861" target="_blank">+7 999 499 7861</a></p>
+                  <p>Telegram: <a href="https://t.me/Tasvetla" target="_blank">@Tasvetla</a></p>
+                  <p>Email: <a href="mailto:sweta4ca@mail.ru" target="_blank">sweta4ca@mail.ru</a></p>
+                  <p>Github: <a href="https://github.com/sosukii" target="_blank">sosukii</a></p>
+                  <p>Discord: sosukii#4767</p>
+                </div>
+              </div>
+
+
+            </section>
+            <section class="skills" id="skills">
+              <div class="skills-wrapper">
+                <h3 class="sub-title">Skillset</h3>
+                <div class="skills__body block-body">
+                  <p>HTML5, CSS3, JavaScript, Figma, React, Bootstrap, Tailwind</p>
+                  <p>MongoDB, Mongoose, Git, GitHub, NodeJS, express.js, nodemon, dotenv</p>
+                </div>
+              </div>
+            </section>
+            <section class="languages">
+              <div class="languages-wrapper">
+                <h3 class="sub-title">Languages</h3>
+                <div class="languages__body block-body">
+                  <p>Russian: native</p>
+                  <p>English: B1</p>
+                </div>
+              </div>
+
+            </section>
+            <section class="projects" id="projects">
+              <div class="projects-wrapper block-body">
+                  <h2 class="sub-title">Projects</h2>
+                  <div class="projects-list">
+                    <div class="project">
+                      <div class="project-head-wrapper">
+                        <h3 class="project__title"><a href="https://github.com/sosukii/3parsers_exe">Parsers</a></h3>
+                        <div class="project__badges">
+                          <img src="https://img.shields.io/badge/-NodeJS-9c5?style=flat&amp;logo=node.js" alt="badge of node.js">
+                          <img src="https://img.shields.io/badge/-JavaScript-000?style=flat&amp;logo=javascript" alt="badge of javascript">
+                          <img src="https://img.shields.io/badge/-Puppeteer-fff?style=flat&amp;logo=puppeteer" alt="badge of puppeteer">
+                        </div>
+                      </div>
+                      <p class="project__description">
+                        Scrap data from site-donor, created .csv and load to target site
+                      </p>
+                    </div>
+                    <div class="project">
+                      <div class="project-head-wrapper">
+                        <h3 class="project__title"><a href="https://github.com/sosukii/avent">CRM</a></h3>
+                        <div class="project__badges">
+                          <img src="https://img.shields.io/badge/-NodeJS-9c5?style=flat&amp;logo=node.js" alt="badge of node.js">
+                          <img src="https://img.shields.io/badge/-JavaScript-000?style=flat&amp;logo=javascript" alt="badge of javascript">
+                          <img src="https://img.shields.io/badge/-React-000?style=flat&amp;logo=react" alt="badge of react">
+                          <img src="https://img.shields.io/badge/-MongoDB-000?style=flat&amp;logo=mongodb" alt="badge of mongo database">
+                        </div>
+                      </div>
+                      <p class="project__description">
+                        Save instance of worker, schedule to db. Get workers, schedule from db. Add\remove workers to schedule, add\remove work activity of worker. Drag and drop schedule on Fullcalendar (with save changing data for schedule). Set payment  per hour for every worker.
+                      </p>
+                    </div>
+                    <div class="project">
+                      <div class="project-head-wrapper">
+                        <h3 class="project__title"><a href="https://github.com/sosukii/booksAuthors">Books</a></h3>
+                        <div class="project__badges">
+                          <img src="https://img.shields.io/badge/-NodeJS-9c5?style=flat&amp;logo=node.js" alt="badge of node.js">
+                          <img src="https://img.shields.io/badge/-JavaScript-000?style=flat&amp;logo=javascript" alt="badge of javascript">
+                          <img src="https://img.shields.io/badge/-React-000?style=flat&amp;logo=react" alt="badge of react">
+                          <img src="https://img.shields.io/badge/-CouchDB-dd2427" alt="badge of couch database">
+                          <img src="https://img.shields.io/badge/-Graphql-da0093?style=flat&amp;logo=graphql" alt="badge of graphQL">
+                        </div>
+                      </div>
+                      <p class="project__description">
+                        Get all books, authors. Get a book\author by id. choose the number of cards you want to see on the page
+                      </p>
+                    </div>
+                  </div>
+
+              </div>
+
+            </section>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-wrapper side-paddings">
+      <h3 class="footer__title">Get in touch!~</h3>
+      <div class="footer__socials">
+        <a href="mailto:sweta4ca@mail.ru" target="_blank">sweta4ca@mail.ru</a>
+        <p><span class="footer__social-link">Telegram:</span> <a href="https://t.me/Tasvetla" target="_blank">@Tasvetla</a></p>
+        <p><span class="footer__social-link">GitHub:</span> <a href="https://github.com/sosukii" target="_blank">sosukii</a></p>
+      </div>
+
+      <img class="footer__icon" src="./img/rs_school_js.svg" alt="logo of rs school">
+    </div>
+  </footer>
+</body>
+</html>
