@@ -324,6 +324,10 @@ ul, ol {
   font-size: 25px;
 }
 
+.code-example__desktop {
+  display: none;
+}
+
 @media screen and (min-width: 220px) {
   .info-wrapper {
     -webkit-box-orient: vertical;
@@ -405,6 +409,14 @@ ul, ol {
   }
   .main {
     padding-bottom: 70px;
+  }
+}
+@media screen and (min-width: 390px) {
+  .code-example__desktop {
+    display: block;
+  }
+  .code-example__mobile {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
