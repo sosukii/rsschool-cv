@@ -416,7 +416,7 @@ ul, ol {
     padding-bottom: 70px;
   }
 }
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 420px) {
   .code-example__desktop {
     display: block;
   }
